@@ -21,5 +21,10 @@ namespace MY_TIC_TAC_TOE_01
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
