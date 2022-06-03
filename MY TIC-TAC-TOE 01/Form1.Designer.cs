@@ -28,101 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.tac1 = new System.Windows.Forms.Button();
+            this.tac2 = new System.Windows.Forms.Button();
+            this.tac3 = new System.Windows.Forms.Button();
+            this.tac4 = new System.Windows.Forms.Button();
+            this.tac5 = new System.Windows.Forms.Button();
+            this.tac6 = new System.Windows.Forms.Button();
+            this.tac7 = new System.Windows.Forms.Button();
+            this.tac8 = new System.Windows.Forms.Button();
+            this.tac9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // tac1
             // 
-            this.button1.BackColor = System.Drawing.Color.Yellow;
-            this.button1.Location = new System.Drawing.Point(12, 44);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 72);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
+            this.tac1.BackColor = System.Drawing.Color.Yellow;
+            this.tac1.Location = new System.Drawing.Point(12, 44);
+            this.tac1.Name = "tac1";
+            this.tac1.Size = new System.Drawing.Size(107, 72);
+            this.tac1.TabIndex = 0;
+            this.tac1.UseVisualStyleBackColor = false;
+            this.tac1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // tac2
             // 
-            this.button2.BackColor = System.Drawing.Color.Yellow;
-            this.button2.Location = new System.Drawing.Point(125, 44);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 72);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.tac2.BackColor = System.Drawing.Color.Yellow;
+            this.tac2.Location = new System.Drawing.Point(125, 44);
+            this.tac2.Name = "tac2";
+            this.tac2.Size = new System.Drawing.Size(107, 72);
+            this.tac2.TabIndex = 1;
+            this.tac2.UseVisualStyleBackColor = false;
+            this.tac2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // tac3
             // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
-            this.button3.Location = new System.Drawing.Point(238, 44);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 72);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.tac3.BackColor = System.Drawing.Color.Yellow;
+            this.tac3.Location = new System.Drawing.Point(238, 44);
+            this.tac3.Name = "tac3";
+            this.tac3.Size = new System.Drawing.Size(107, 72);
+            this.tac3.TabIndex = 2;
+            this.tac3.UseVisualStyleBackColor = false;
+            this.tac3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // tac4
             // 
-            this.button4.BackColor = System.Drawing.Color.Yellow;
-            this.button4.Location = new System.Drawing.Point(14, 122);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 72);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = false;
+            this.tac4.BackColor = System.Drawing.Color.Yellow;
+            this.tac4.Location = new System.Drawing.Point(14, 122);
+            this.tac4.Name = "tac4";
+            this.tac4.Size = new System.Drawing.Size(107, 72);
+            this.tac4.TabIndex = 3;
+            this.tac4.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // tac5
             // 
-            this.button5.BackColor = System.Drawing.Color.Yellow;
-            this.button5.Location = new System.Drawing.Point(125, 122);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 72);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = false;
+            this.tac5.BackColor = System.Drawing.Color.Yellow;
+            this.tac5.Location = new System.Drawing.Point(125, 122);
+            this.tac5.Name = "tac5";
+            this.tac5.Size = new System.Drawing.Size(107, 72);
+            this.tac5.TabIndex = 4;
+            this.tac5.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // tac6
             // 
-            this.button6.BackColor = System.Drawing.Color.Yellow;
-            this.button6.Location = new System.Drawing.Point(238, 122);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(107, 72);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.tac6.BackColor = System.Drawing.Color.Yellow;
+            this.tac6.Location = new System.Drawing.Point(238, 122);
+            this.tac6.Name = "tac6";
+            this.tac6.Size = new System.Drawing.Size(107, 72);
+            this.tac6.TabIndex = 5;
+            this.tac6.UseVisualStyleBackColor = false;
+            this.tac6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // tac7
             // 
-            this.button7.BackColor = System.Drawing.Color.Yellow;
-            this.button7.Location = new System.Drawing.Point(14, 200);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(107, 72);
-            this.button7.TabIndex = 6;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.tac7.BackColor = System.Drawing.Color.Yellow;
+            this.tac7.Location = new System.Drawing.Point(14, 200);
+            this.tac7.Name = "tac7";
+            this.tac7.Size = new System.Drawing.Size(107, 72);
+            this.tac7.TabIndex = 6;
+            this.tac7.UseVisualStyleBackColor = false;
+            this.tac7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // tac8
             // 
-            this.button8.BackColor = System.Drawing.Color.Yellow;
-            this.button8.Location = new System.Drawing.Point(125, 200);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(107, 72);
-            this.button8.TabIndex = 7;
-            this.button8.UseVisualStyleBackColor = false;
+            this.tac8.BackColor = System.Drawing.Color.Yellow;
+            this.tac8.Location = new System.Drawing.Point(125, 200);
+            this.tac8.Name = "tac8";
+            this.tac8.Size = new System.Drawing.Size(107, 72);
+            this.tac8.TabIndex = 7;
+            this.tac8.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // tac9
             // 
-            this.button9.BackColor = System.Drawing.Color.Yellow;
-            this.button9.Location = new System.Drawing.Point(238, 200);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(107, 72);
-            this.button9.TabIndex = 8;
-            this.button9.UseVisualStyleBackColor = false;
+            this.tac9.BackColor = System.Drawing.Color.Yellow;
+            this.tac9.Location = new System.Drawing.Point(238, 200);
+            this.tac9.Name = "tac9";
+            this.tac9.Size = new System.Drawing.Size(107, 72);
+            this.tac9.TabIndex = 8;
+            this.tac9.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -130,15 +131,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GreenYellow;
             this.ClientSize = new System.Drawing.Size(360, 315);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tac9);
+            this.Controls.Add(this.tac8);
+            this.Controls.Add(this.tac7);
+            this.Controls.Add(this.tac6);
+            this.Controls.Add(this.tac5);
+            this.Controls.Add(this.tac4);
+            this.Controls.Add(this.tac3);
+            this.Controls.Add(this.tac2);
+            this.Controls.Add(this.tac1);
             this.Name = "Form1";
             this.Text = "MY TIC-TAC-TOE GAME";
             this.ResumeLayout(false);
@@ -147,14 +148,14 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
+        private Button tac1;
+        private Button tac2;
+        private Button tac3;
+        private Button tac4;
+        private Button tac5;
+        private Button tac6;
+        private Button tac7;
+        private Button tac8;
+        private Button tac9;
     }
 }
